@@ -1,0 +1,80 @@
+#Boolean Expressions -- are statements that can be 
+#either True or False
+
+#example>>>
+
+
+#IF/Else
+#else statements allow us to elegantly describe what 
+#we want our code to do when certain conditions are not met.
+
+#else statements always appear in conjunction with if 
+#statements. Consider our waking-up example to see how 
+#this works:
+
+#examples>>>
+
+#if weekday:
+#  print("wake up at 6:30")
+#else:
+# print("sleep in")
+#'''''''''''''''''''''''''''
+#if age >= 13:
+ # print("Access granted.")
+#else:
+ # print("Sorry, you must be 13 or older to 
+#	watch this movie.")
+
+
+
+#-----------------------------------------
+
+#Elif Statement -- checks another condition after the 
+#previous if statements conditions aren’t met.
+
+#Example >>>
+
+#print("Thank you for the donation!")
+ 
+#if donation >= 1000:
+ # print("You've achieved platinum status")
+#elif donation >= 500:
+ # print("You've achieved gold donor status")
+#elif donation >= 100:
+ # print("You've achieved silver donor status")
+#else:
+ # print("You've achieved bronze donor status")
+
+#'''''''''''''''''''''''''''''''''''''''
+#grade = 86
+
+#if grade >= 90:
+ # print("A")
+#elif grade >= 80:
+ # print("B")
+#elif grade >= 70:
+ # print("C")
+#elif grade >= 60:
+ # print("D")
+#else:
+ # print("F")
+
+
+#-------------------------------------------
+
+#== : equals
+#!= : not equals
+#>=
+#<=
+#>
+#<
+
+#---------------------------------------------
+#.randint() function from the random module to generate 
+#a random number from a range.
+
+#must import module******
+
+#import random
+
+#--------------------------------------------
